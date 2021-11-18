@@ -1,7 +1,7 @@
 
-.bloque-1{
-    background: rgb(199,99,161);
-    background: linear-gradient(60deg, rgba(199,99,161,1) 0%, rgba(110,206,202,1) 50%, rgba(39,99,161,1) 100%);
+.bloque-1-vadaju{
+    background: rgb(13,174,255);
+    background: linear-gradient(60deg, rgba(209, 35, 232,1) 0%, rgba(13,174,255,1) 50%, rgb(27, 59, 181,1) 100%);
 }
 .espacio-bloque{
     max-width: 768px;
@@ -51,3 +51,9 @@
         /* text-decoration: none; */
         color: orange;
     }
+
+----------
+
+.invisibles{
+    position: absolute; z-index: -100; width: 0px !important; height: 0px !important;
+}

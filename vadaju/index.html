@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" type="image/x-icon" href="../img/vadaju-ico.ico">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <title>TARJETA VADAJU</title>
+  </head>
+  <body>
+
+    <div class="container-fluid bloque-1-vadaju d-flex justify-content-center">
+      <div class="espacio-bloque">
+        <h1>Diseño y Programación</h1>
+        <img src="../img/vadaju-perfil.png" class="foto-perfil" alt="VADAJU">
+        <h3>VADAJU</h3>
+        <p><b>Programamos, estructuramos y diseñamos todas las vistas que tu cliente ve en un dispositivo digital, simplemente captamos la mirada de tus clientes para que compren tus productos o servicios.</b></p>
+      </div>
+    </div>
+
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="espacio-bloque">
+        <h4>DATOS CONTACTO</h4>
+        <div class="row">
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <a class="btn btn-success active" href="https://wa.me/message/7UDAMJR3QR5UO1" role="button" target="_blank"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+          </div>
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <a class="btn btn-primary active" href="https://m.me/vadajufanepage" role="button" target="_blank"><i class="bi bi-messenger"></i> Messenger</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <input type="text" id="texto1" value="4922615880" style="position: absolute; z-index: -100; top: 3px; left: 3px;">
+            <button onclick="copiaralportapapeles1();" class="btn btn-info active"><i class="bi bi-telephone-fill"></i> 492 261 5880</button>
+          </div>
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <a class="btn btn-primary" href="https://t.me/vadajutelegram" role="button" target="_blank"><i class="bi bi-telegram"></i> Telegram</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <input type="text" id="texto2" value="vadaju.contacto@gmail.com" style="position: absolute; z-index: -100; top: 3px; left: 3px;">
+            <button onclick="copiaralportapapeles2();" class="btn btn-danger active"><i class="bi bi-envelope-fill"></i> vadaju.contacto@gmail.com</button>
+          </div>
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <a class="btn btn-dark" href="https://vadaju.github.io/" role="button" target="_blank"><i class="bi bi-globe2"></i> Sitio Web</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="separador-bloque"></div>
+
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="espacio-bloque">
+        <h4>CÓMO TE PUEDE AYUDAR UNA TARJETA DIGITAL</h4>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="8000">
+              <img src="../img/slide-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="8000">
+              <img src="../img/slide-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="8000">
+              <img src="../img/slide-3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="8000">
+              <img src="../img/slide-4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="8000">
+              <img src="../img/slide-5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="8000">
+              <img src="../img/slide-6.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="separador-bloque"></div>
+
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="espacio-bloque">
+        <h4>SERVICIOS</h4>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Tarjetas Digitales</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Sitios Web</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Diseño Gráfico</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <h5>¿Qué puedo hacer con una tarjeta de presentación digital?</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Con un clic en el boton compartir puedes enviar tu tarjeta digital a futuros clientes.</li>
+              <li class="list-group-item">Comparte tu tarjeta digital de dispositivo a dispositivo escaneando el cógigo QR.</li>
+              <li class="list-group-item">Imprime tu código QR afuera de tu negocio para que sea escaneado por futuros clientes.</li>
+              <li class="list-group-item">En tu tarjeta digital se muestra una descripción breve de tus productos o servicios.</li>
+              <li class="list-group-item">Ayuda a tus clientes y guíalos hacia tu negocio por medio de google maps en tu tarjeta digital.</li>
+            </ul>
+            <p style="text-align: justify;">Con tu tarjeta de presentación digital, seras rápido y eficiente al momento de compartir tu información de trabajo, para que no se te vaya ningún cliente.</p>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <h5>Creamos sitios web a la medida, pero lo más importante es, ¿para qué tener un sitio web?</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Aumenta el alcance de tu negocio.</li>
+              <li class="list-group-item">Mejora la imagen de tu marca.</li>
+              <li class="list-group-item">Aumenta tus ventas.</li>
+              <li class="list-group-item">Te permite vender en línea.</li>
+              <li class="list-group-item">Mejora el servicio al cliente.</li>
+              <li class="list-group-item">Posicionamiento en buscadores.</li>
+            </ul>
+            <p style="text-align: justify;">Estos son algunos puntos importantes por mencionar y sí te gustaría saber más detalles, ya tienes nuestros datos de contacto.</p>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <h5>Diseño para interfaces digitales, cómo;</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Aplicaciones móviles.</li>
+              <li class="list-group-item">Sitios Web.</li>
+              <li class="list-group-item">Sistemas Web.</li>
+              <li class="list-group-item">Contenido para consumo online.</li>
+            </ul>
+            <p style="text-align: justify;">Somos expertos en diseño UX (Diseño en Experiencia del Usuario) y UI (Diseño de interfaces).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="separador-bloque"></div>
+
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="espacio-bloque">
+        <h4>COMO LLEGAR</h4>
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.166444629478!2d-102.30568078553101!3d21.88966546320756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ee651a9f16e3%3A0x167d2da536c43837!2sAguascalientes!5e0!3m2!1sen!2smx!4v1637191927679!5m2!1sen!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="separador-bloque"></div>
+
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="espacio-bloque">
+        <h4>COMPARTE TU TARJETA CON OTRO DISPOSITIVO</h4>
+        <div class="row">
+          <div class="col-12 d-grid mb-3 d-flex justify-content-center">
+            <object data="../img/qr-code-vadaju.svg" type="image/svg+xml" style="width: 40%;"></object>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-upc-scan"></i> ESCANEAR</button>
+          </div>
+
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <input type="text" id="texto3" value="https://vadaju.github.io/vadaju" style="position: absolute; z-index: -100; top: 3px; left: 3px;">
+            <button onclick="copiaralportapapeles3();" class="btn btn-primary"><i class="bi bi-link-45deg"></i> COPIAR ENLACE</button>
+          </div>
+
+          <!-- <div class="col-12 col-sm-6 d-grid mb-3">
+            <button type="button" class="btn btn-primary"><i class="bi bi-link-45deg"></i> COPIAR ENLACE</button>
+          </div> -->
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Escanea el código.</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body d-flex align-items-center" style="padding: 0px;">
+                <object data="../img/qr-code-vadaju.svg" type="image/svg+xml" style="width: 100%; height: 100%;"></object>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="separador-bloque"></div>
+
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="espacio-bloque">
+        <h4>SÍGUEME</h4>
+        <div class="row">
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <button class="btn btn-primary active" type="button"><i class="bi bi-facebook"></i> Facebook</button>
+          </div>
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <button class="btn btn-danger" type="button"><i class="bi bi-instagram"></i> Instagram</button>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <button class="btn btn-danger" type="button"><i class="bi bi-youtube"></i> Youtube</button>
+          </div>
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <button class="btn btn-primary" type="button"><i class="bi bi-linkedin"></i> Linkedin</button>
+          </div>
+        </div> -->
+        <!-- <div class="row">
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <button class="btn btn-danger" type="button"><i class="bi bi-instagram"></i> Instagram</button>
+          </div>
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <button class="btn btn-info" type="button"><i class="bi bi-twitter"></i> Twitter</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <button class="btn btn-dark" type="button"><i class="bi bi-music-note"></i> Tiktok</button>
+          </div>
+          <div class="col-12 col-sm-6 d-grid mb-3">
+            <button class="btn btn-warning" type="button"><i class="bi bi-camera-reels-fill"></i> Kwai</button>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="pie d-flex justify-content-center align-items-center">
+      <span class="texto-pie">DISEÑO Y PROGRAMACIÓN <a href="https://vadaju.github.io/" target="_blank">VADAJU</a></span>
+    </div>
+
+
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/main.js"></script>
+
+  </body>
+</html>
