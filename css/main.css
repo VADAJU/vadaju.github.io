@@ -1,22 +1,19 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); */
-
 * {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
 .espacio-menu{
-    width: 50px !important;
+    width: 48px !important;
 }
 .contenido{
-    width: calc(100% - 50px) !important;
-    
+    width: calc(100% - 48px) !important;
 }
 header {
     position: fixed;
     top: 12px;
     left: 12px;
-    padding: 17px;
+    padding: 12px;
     background: #11141a;
     z-index: 100;
 }
@@ -29,6 +26,8 @@ nav a {
     text-decoration: none;
     transition: .3s;
     display: block;
+    font-size: 24px;
+    margin: 12px 0px;
 }
 nav a:hover,
 nav a.active {
@@ -39,12 +38,12 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1f242d;
+    /* background: #1f242d; */
     color: #fff;
 }
-section:nth-child(odd) {
+/* section:nth-child(odd) {
     background: #323946;
-}
+} */
 h1, h3{
     text-align: center;
     font-weight:800;
