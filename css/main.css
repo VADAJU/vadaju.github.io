@@ -36,7 +36,7 @@ header {
 }
 .lineas-naranjas{
     position: fixed;
-    bottom: 6px;
+    top: 336px;
     left: 6px;
     background: url(../img/franciscoValdezFit/lineas-naranjas.png);
     width: 42px;
