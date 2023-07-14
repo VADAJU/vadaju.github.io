@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700;1,900&display=swap');
+
+body{
+    background-image: url(../img/franciscoValdezFit/fondo-tarjeta.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    max-width: 768px;
+}
+.marco-contenido{
+    border: 2px solid rgba(255, 66, 0, 0.4);
+}
 * {
     margin: 0;
     padding: 0;
@@ -11,15 +28,20 @@
 }
 header {
     position: fixed;
-    top: calc(50% - 162px);
+    top: 6px;
     left: 6px;
     padding: 9px;
-    background: #11141a;
+    background-color: rgba(255,66,0,0.4);
     z-index: 100;
 }
-.base-tarjeta{
-    background: rgb(13,174,255);
-    background: linear-gradient(60deg, rgba(209, 35, 232,1) 0%, rgba(13,174,255,1) 50%, rgb(27, 59, 181,1) 100%);
+.lineas-naranjas{
+    position: fixed;
+    bottom: 6px;
+    left: 6px;
+    background: url(../img/franciscoValdezFit/lineas-naranjas.png);
+    width: 42px;
+    height: calc(100vh - 342px);
+    background-size: contain;
 }
 nav a {
     color: #fff;
@@ -31,51 +53,51 @@ nav a {
 }
 nav a:hover,
 nav a.active {
-    color: #0ef;
+    color: #ff4200;
 }
 section {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: #1f242d; */
     color: #fff;
 }
-/* section:nth-child(odd) {
-    background: #323946;
-} */
-.centrar-vertical{
-    min-height: 100vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+h1{
+    line-height: 26px;
+}
+h3{
+    color: #ff4200;
 }
 h1, h3{
     text-align: center;
-    font-weight:800;
-    font-family: 'Raleway', sans-serif;
-    min-width: 190px;
+    font-style: italic;
+    font-weight: 900;
 }
 h4{
     text-align: center;
-    font-family: 'Raleway', sans-serif;
 }
 .foto-perfil{
-    width: 160px;
-    height: 160px;
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
-    border: 6px solid rgba(255, 255, 255, 0.5);
+    border: 10px solid rgba(255, 66, 0, 0.4);
     display: block;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 p{
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 700;
 } 
 .btn-tamano{
     width: 100%;
     height: 120px;
 }
     
+/* .base-tarjeta{
+    background: rgb(13,174,255);
+    background: linear-gradient(60deg, rgba(209, 35, 232,1) 0%, rgba(13,174,255,1) 50%, rgb(27, 59, 181,1) 100%);
+} */
+/* section:nth-child(odd) {
+    background: #323946;
+} */
