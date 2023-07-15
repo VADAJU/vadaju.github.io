@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 body{
-    background-image: url(../img/franciscoValdezFit/fondo-tarjeta.jpg);
+    background-image: url(../franciscovaldezfit/fondo-tarjeta.jpg);
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -25,7 +25,7 @@ header {
     position: fixed;
     top: 336px;
     left: 6px;
-    background: url(../img/franciscoValdezFit/lineas-naranjas.png);
+    background: url(../franciscoValdezFit/lineas-naranjas.png);
     width: 42px;
     height: calc(100vh - 342px);
     background-size: contain;
@@ -42,9 +42,6 @@ nav a:hover,
 nav a.active {
     color: #ff4200;
 }
-/* .container{
-    max-width: 768px;
-} */
 section {
     min-height: 100vh;
     display: flex;
@@ -52,13 +49,10 @@ section {
     align-items: center;
     color: #fff;
 }
-/* .marco-contenido{
-    border: 2px solid rgba(255, 66, 0, 0.4);
-} */
 .espacio-menu{
     width: calc(100% - 42px);
     height: calc(100vh - 12px);
-    background-color: rgba(255, 255, 255, 0.2);
+    /* background-color: rgba(255, 255, 255, 0.2); */
     margin: 6px 0px 6px 42px;
     border: 2px solid rgba(255, 66, 0, 0.4);
     display: flex;
@@ -69,7 +63,7 @@ section {
     width: 100%;
     max-width: 720px;
     min-height: 25px;
-    background-color: rgba(255, 66, 0, 0.4);
+    /* background-color: rgba(255, 66, 0, 0.4); */
     margin: 0px 6px;
 }
 .espacio-botones{
