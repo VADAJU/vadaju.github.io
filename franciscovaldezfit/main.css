@@ -25,7 +25,7 @@ header {
     position: fixed;
     top: 336px;
     left: 6px;
-    background: url(../franciscoValdezFit/lineas-naranjas.png);
+    background: url(lineas-naranjas.png);
     width: 42px;
     height: calc(100vh - 342px);
     background-size: contain;
